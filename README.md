@@ -12,20 +12,16 @@ Infraestrutura:
 
 - Subir o Metabase via docker X
 
-- Criar o script de execução 
+- Criar o script de execução X
 
-- Testar a Execução 
-
-Contas: 
-
-- Criar a Conta no Dbt Cloud 
-
-- Criar a Conta no SnowFlake 
+- Testar a Execução X
 
 - Snowflake Data Warehouse:
     
-    - Verificando a existência das tabelas 
-    - Obtenção dos links de conexão e nome da conta 
+    - Criar a Conta no SnowFlake X
+    - Criacao das entidades através de script X
+    - Verificando a existência das tabelas X
+    - Obtenção dos links de conexão e nome da conta X
 
 
 Extração:
