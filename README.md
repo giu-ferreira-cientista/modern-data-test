@@ -1,7 +1,6 @@
 # airbyte-dbt-airflow-snowflake-metabase
 Repositório para armazenar os artefatos do Pipeline utilizando Modern Data Stack com AirByte + DBT + Airflow + SnowFlake + Metabase
 
-teste
 
 Tarefas:
 
