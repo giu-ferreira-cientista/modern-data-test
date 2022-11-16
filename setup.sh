@@ -54,7 +54,7 @@ down() {
   echo "Stopping Airflow..."
   docker-compose -f docker-compose-airflow.yaml down -v
   echo "Stopping Metabase..."
-  docker stop metabase
+  docker-compose -f docker-compose-metabase.yaml down -v
 }
 
 case $1 in
@@ -68,6 +68,6 @@ case $1 in
     down
     ;;
   *)
-    echo "Usage: $0 {up|down}"
+    echo "Usage: $0 {up|config|down}"
     ;;
 esac
